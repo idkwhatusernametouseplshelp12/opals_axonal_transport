@@ -1,0 +1,22 @@
+ADJUST THESE PARAMETERS ACCORDINGLY!!!!
+
+THE FOLLOWING PARAMETERS WERE WHAT WAS USED FOR OUR VIDEOS
+YOUR VIDEOS MAY REQUIRE DIFFERENT PARAMETERS DEPENDING ON THE CIRCUMSTANCES
+
+% Parameters (final vid 1)
+minBlobArea = 20;  % minimum blob area
+maxBlobArea = 300; % maximum blob area
+velocityThreshold = 1.3; % pixels per frame
+pauseThreshold = 5; % frames, adjust as needed
+brightnessThreshold = 0.1; % brightness threshold (0-1 range)
+redThreshold = 0.1; % Threshold for red channel intensity (0-1 range)
+maxLinkingDistance = 100; % Maximum distance for linking tracks between frames
+
+% Parameters (final vid 2)
+minBlobArea = 15;  % minimum blob area
+maxBlobArea = 200; % maximum blob area
+velocityThreshold = 1; % pixels per frame
+pauseThreshold = 5; % frames, adjust as needed
+brightnessThreshold = 0.05; % brightness threshold (0-1 range)
+redThreshold = 0.05; % Threshold for red channel intensity (0-1 range)
+maxLinkingDistance = 100; % Maximum distance for linking tracks between frames
